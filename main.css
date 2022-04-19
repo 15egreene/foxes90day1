@@ -1,0 +1,52 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+   
+   
+  h1 {
+    color: SeaGreen;
+    text-align: center;
+  }
+   
+   
+  p, 
+  li {
+    font-size: 14px;
+  }
+   
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+
+  img {
+      max-width: 300x;
+      max-height: 300px;
+      margin: auto;
+      border-style: solid;
+      border-width: thick;
+      border-color:red;
+      border-radius: 20px;
+    
+  }
+
+  
+
+  body {
+      background-color: orange;
+  }
+
+
+  /* The navbar container */
+#topnav {
+  background-color: red;
+  border-radius: 20px;
+  position: relative;
+}
+
+#topnav.piano {
+  object-fit: fill;
+  position: right;
+}
+      
